@@ -26,6 +26,7 @@ time, mark, audio, video {
 .navbar-one{
     display: grid;
     position: relative;
+    
     grid-template-columns: 50px 50px 1fr 50px 50px;
     grid-template-rows: 50px;
     grid-template-areas:
@@ -45,7 +46,7 @@ a{
     grid-area: logo;
     justify-self: center;
     align-self: center;
-}
+    }
 #search{
     grid-area: search;
     height: 40px;
@@ -85,8 +86,77 @@ a{
     border-radius: 2px;
 }
 .navbar-two{
-    margin-left: 200px;   
+    margin-left: 200px;  
+}
+.navbar-two a {
+    color: #777;
+    padding: 25px 5px;
+}
+a:hover{
+    color: #4285f4;
 }
 .border{
     border-bottom: 1px solid #dddddd;
+    padding-top: 10px;
+}
+
+/*main section */
+
+.main{
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-three span{
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;   
+}
+.main .box-1{
+    position: relative;
+    margin-right: 550px;
+    margin-top: 15px;
+    padding: 25px;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+}
+.main p{
+    color: black;
+    font-size: 12px;
+    padding-top: 15px;
+}
+.box-1 img{
+    float: right;
+}
+.box-1 h3{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.box-1 ol{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.box-1 li{
+    padding-top: 4px;
+}
+#body-h2{
+    color: #120A8F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.main cite{
+    color: #006400;
+    font-size: 15px;
+}
+.main-body{
+    position: relative;
+    margin-right: 550px;
+    margin-top: 15px;
+    padding: 25px;
+    border: 1px transparent solid;
 }
