@@ -1,0 +1,1 @@
+This is my attempt at recreating a google search results page with using just HTML and CSS.... My coding journey continues.
